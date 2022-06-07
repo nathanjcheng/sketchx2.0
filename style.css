@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.container {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.pixel {
+
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
